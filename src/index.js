@@ -1,10 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GlobalStyles from './GlobalStyles';
+import Header from './Header/Header';
+import Content from './Content/Content';
+import Footer from './Footer/Footer';
 
 
 const App = () => {
   return (
-    <div>Oi</div>
+    <div>
+      <GlobalStyles/>
+      <Header/>
+      <Content/>
+      <Footer/>
+    </div>
   )
 }
 
